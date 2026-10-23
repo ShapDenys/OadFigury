@@ -1,4 +1,6 @@
-﻿Część 1
+﻿Dzień 1
+
+Część 1
 
     1) Circle: area 3,14, perimeter 6,28
        Rectangle: area 6,00, perimeter 10,00
@@ -30,4 +32,8 @@ Cześć 2
     7) Kwadrat - Prostokąt: MA, Dziedziczenie może naruszać zasadę podstawienia Liskov.
     8) Koszyk - Lista: MA, Koszyk zawiera listę produktów.
 
-Cześć 3
+====================================================================================================
+
+Dzień 2
+
+Cześć 1:

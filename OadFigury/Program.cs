@@ -27,3 +27,11 @@ Drawing empty = new();
 Console.WriteLine(empty.Largest() == null
     ? "Brak figur w pustym rysunku."
     : "Znaleziono figurę.");
+
+Console.WriteLine("================================================================");
+
+var animals = new List<Animal> { new Dog(), new Dog() };
+foreach (var animal in animals)
+{
+    Console.WriteLine(animal.Bark());
+}
