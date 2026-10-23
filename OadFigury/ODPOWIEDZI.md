@@ -36,4 +36,18 @@ Cześć 2
 
 Dzień 2
 
-Cześć 1:
+Zadanie 1: Błąd kompilacji
+           CS0506: 'Service.Description()': cannot override inherited member 'Product.Description()' because it is not marked virtual, abstract, or override
+           Metoda w klasie bazowej musi być oznaczona modyfikatorem virtual, aby można było ją przesłonić za pomocą słowa kluczowego override w klasie pochodnej.
+
+Zadanie 2:  Się skompiluje, ale z ostrzeżeniem
+            CS0108: 'Dog.Bark()' hides inherited member 'Animal.Bark()'. Use the new keyword if hiding was intended.
+            Dodanie słowa kluczowego override do metody w klasie Dog
+
+Zadanie 3: Błąd kompilacji
+           CS0534: 'Square' does not implement inherited abstract member 'Figure2.Area()'
+           Zaimplementowanie metody abstrakcyjnej Pole() w klasie Kwadrat
+
+Zadanie 4: Błąd kompilacji
+           CS0144: Cannot create an instance of the abstract type or interface 'Figure2'
+           Utworzenie instancji klasy pochodnej zamiast klasy abstrakcyjnej Figure2:
